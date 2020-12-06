@@ -1,0 +1,4 @@
+Gemfile.* linguist-language=Ruby
+Gemfile.* linguist-detectable
+Gemfile linguist-language=Ruby
+Gemfile linguist-detectable
