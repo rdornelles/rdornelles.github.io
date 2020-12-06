@@ -36,3 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
     var elems = document.querySelectorAll('.materialboxed');
     M.Materialbox.init(elems);
 });
+
+/**
+ * @description image paralax init
+ */
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    M.Parallax.init(elems);
+});
