@@ -6,7 +6,7 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
         {% for page in site.pages %}
         {% if page.menu %}
-        <li><a href="{% translate_link '{{ page.namespace }}' %}">{% t '{{ page.namespace }}' %}</a></li>
+        <li><a href="{% translate_link '{{ page.namespace }}' %}">{% t {{ page.namespace }} %}</a></li>
         {% endif %}
         {% endfor %}
         </ul>
@@ -21,7 +21,7 @@
     <!-- PAGINAS -->
     {% for page in site.pages %}
     {% if page.menu %}
-    <li><a href="{% translate_link '{{ page.namespace }}' %}"><i class="material-icons">arrow_forward</i>{% t '{{ page.namespace }}' %}</a></li>
+    <li><a href="{% translate_link '{{ page.namespace }}' %}"><i class="material-icons">arrow_forward</i>{% t {{ page.namespace }} %}</a></li>
     {% endif %}
     {% endfor %}
 </ul>
