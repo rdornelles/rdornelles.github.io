@@ -1,12 +1,12 @@
 <!-- DESKTOP MENU -->
 <nav>
     <div class="nav-wrapper">
-        <a href="/" class="brand-logo">Logo</a>
+        <a href="{{ site.baseurl }}" class="brand-logo">Logo</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
         {% for page in site.pages %}
         {% if page.menu %}
-        <li><a href="{{ page.url }}">{{ page.title }} </a></li>
+        <li><a href="{% translate_link '{{ page.namespace }}' %}">{% t '{{ page.namespace }}' %}</a></li>
         {% endif %}
         {% endfor %}
         </ul>
@@ -16,12 +16,12 @@
 <!-- MOBILE MENU -->
 <ul class="sidenav" id="mobile-demo">
     <!-- PADRÃO -->
-    <li><a href="/"><i class="material-icons">home</i>Pagina inicial</a></li>
+    <li><a href="{{ site.baseurl }}"><i class="material-icons">home</i>Pagina inicial</a></li>
     <li><a href="{{ site.instagram }}" target="_blank"><i class="material-icons">thumb_up</i>Instagram</a></li>
     <!-- PAGINAS -->
     {% for page in site.pages %}
     {% if page.menu %}
-    <li><a href="{{ page.url }}"><i class="material-icons">arrow_forward</i>{{ page.title }}</a></li>
+    <li><a href="{% translate_link '{{ page.namespace }}' %}"><i class="material-icons">arrow_forward</i>{% t '{{ page.namespace }}' %}</a></li>
     {% endif %}
     {% endfor %}
 </ul>

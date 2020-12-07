@@ -28,13 +28,12 @@ description: >-
   Tecnologia para seu negócio! 
 
 locale: pt_br
-
-permalink: /:categories/:title.html
 baseurl: "" 
 url: "" 
 
-# Build settings
+# build settings
 plugins:
+  - jekyll-multiple-languages-plugin
   - jekyll-redirect-from
   - jekyll-readme-index
   - jekyll-seo-tag
@@ -42,11 +41,19 @@ plugins:
   - jekyll-feed
   - github-pages
 
+# plugin jekyll-readme-index config
 readme_index:
   enabled:          true
   remove_originals: false
   with_frontmatter: false
   
+# plugin jekyll-multiple-languages-plugin config
+languages: ["pt", "en"]
+exclude_from_localizations: ["assets", "images"]
+permalink_en: /en/:categories/:title.html
+permalink_pt: /:categories/:title.html
+permalink: /:categories/:title.html
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
