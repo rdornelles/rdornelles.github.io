@@ -59,7 +59,7 @@ nav::after {
 
     nav img {
         width: auto;
-        height: 5vmin;
+        height: 9.2vmin;
     }
 }
 
@@ -90,5 +90,12 @@ img[alt$="><"] {
 .waves-effect.waves-blue .waves-ripple {
     /* The alpha value allows the text and background color
     of the button to still show through. */
-     background-color: rgba(14, 187, 203, 0.65);
-   }
+    background-color: rgba(14, 187, 203, 0.65);
+}
+
+.row .col.s2-5{
+    width: 20.8333333333%;
+    margin-left:auto;
+    left:auto;
+    right:auto;
+}

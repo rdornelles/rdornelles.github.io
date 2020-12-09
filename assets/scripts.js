@@ -38,6 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
+ * @description Tabs init
+ */
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tabs');
+    M.Tabs.init(elems);
+});
+
+/**
  * @description image paralax init
  */
 document.addEventListener('DOMContentLoaded', function() {
