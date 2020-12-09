@@ -3,4 +3,4 @@ title: Produtos
 layout: full
 ---
 
-{% include product_list.html filter = "produtos" %}
+{% include product_list.rb filter = "produtos" %}

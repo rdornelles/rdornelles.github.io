@@ -1,3 +1,61 @@
+nav {
+    height: 80px;
+    background-color: #FAFAFA;
+}
+
+nav .container {
+    height: 70px;
+}
+
+nav #nav-mobile {
+    height: 70px;
+    line-height: 70px;
+}
+
+nav .brand-logo {
+    height: 40px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #094679 !important;
+    font-family: 'Red Hat Text';
+}
+
+nav::after {
+    display: inline-block;
+    background: linear-gradient(to right, #6c42f4 25%,#393dd2 25%, #393dd2 50%, #378fd3 50%, #378fd3 75%, #0ebbcb 75%);
+    content: "Rodrigo Dornelles Soluções Tecnólogicas";
+    color: rgba(0,0,0,0);
+    width: 100%;
+    height: 10px;
+}
+
+@media only screen and (max-width: 992px)
+{
+    nav {
+        height: 74px;
+    }
+    
+    nav .container {
+        height: 51px;
+    }
+    
+    nav #nav-mobile {
+        height: 51px;
+        line-height: 51px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    nav {
+        height: 66px;
+    }
+}
+
+/******************************************/
+
 img[alt$=">"] {
     float: right;
     margin-left: 20px;
@@ -17,3 +75,11 @@ img[alt$="><"] {
     margin: auto;
     float: none!important;
 }
+
+/******************************************/
+
+.waves-effect.waves-blue .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(14, 187, 203, 0.65);
+   }

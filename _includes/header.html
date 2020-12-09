@@ -1,15 +1,19 @@
 <!-- DESKTOP MENU -->
 <nav>
-    <div class="nav-wrapper">
-        <a href="/" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-        {% for page in site.pages %}
-        {% if page.menu %}
-        <li><a href="{{ page.url }}">{{ page.title }} </a></li>
-        {% endif %}
-        {% endfor %}
-        </ul>
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo">
+                <img src="/images/logo-background-white-horizontal.png" alt="{{ site.title }}" title="Página Inicial" height="100%">
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            {% for page in site.pages %}
+            {% if page.menu %}
+            <li><a href="{{ page.url }}">{{ page.title }} </a></li>
+            {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
     </div>
 </nav>
 

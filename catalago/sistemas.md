@@ -3,4 +3,4 @@ title: Sistemas
 layout: full
 ---
 
-{% include product_list.html filter = "sistemas" %}
+{% include product_list.rb filter = "sistemas" %}

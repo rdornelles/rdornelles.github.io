@@ -4,4 +4,4 @@ layout: full
 menu: true
 ---
 
-{% include product_list.html %}
+{% include product_list.rb %}
