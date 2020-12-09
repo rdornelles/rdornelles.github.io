@@ -7,6 +7,10 @@ nav .container {
     height: 70px;
 }
 
+nav img {
+    height: 100%;
+}
+
 nav #nav-mobile {
     height: 70px;
     line-height: 70px;
@@ -51,6 +55,11 @@ nav::after {
 {
     nav {
         height: 66px;
+    }
+
+    nav img {
+        width: auto;
+        height: 5vmin;
     }
 }
 
