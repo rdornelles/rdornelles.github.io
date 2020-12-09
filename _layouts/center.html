@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+    <head>
+       {% include head.html %}
+       {% seo %}
+       <style type="text/css" media="screen">
+        .container {
+            margin: 10px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        {% include header.html %}
+        <main class="container">{{ content }}</main>
+        {% include footer.html %}
+    </body>
+</html>
