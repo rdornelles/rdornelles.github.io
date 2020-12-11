@@ -85,17 +85,14 @@ img[alt$="><"] {
     float: none!important;
 }
 
+p {
+    text-align: justify;
+}
+
 /******************************************/
 
 .waves-effect.waves-blue .waves-ripple {
     /* The alpha value allows the text and background color
     of the button to still show through. */
     background-color: rgba(14, 187, 203, 0.65);
-}
-
-.row .col.s2-5{
-    width: 20.8333333333%;
-    margin-left:auto;
-    left:auto;
-    right:auto;
 }
