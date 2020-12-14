@@ -1,5 +1,5 @@
 ---
-title: Sistema Embarcados
+title: Sistemas Especializados
 layout: full
 categories: catalago sistemas
 description: >-
