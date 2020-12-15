@@ -16,8 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     // init carousel
     M.Carousel.init(elems, {
-        fullWidth: true,
-        indicators: true
+        fullWidth: false
     });
 });
 
