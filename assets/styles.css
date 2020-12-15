@@ -1,6 +1,6 @@
 nav {
     height: 80px;
-    background-color: #FAFAFA;
+    background-color: white;
 }
 
 nav .container {
@@ -23,7 +23,8 @@ nav .brand-logo {
 
 nav a {
     color: #094679 !important;
-    font-family: 'Red Hat Text';
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 400;
 }
 
 nav::after {
@@ -59,7 +60,8 @@ nav::after {
 
     nav img {
         width: auto;
-        height: 9.2vmin;
+        height: 32px;
+        padding-bottom: 5px;
     }
 }
 
@@ -87,6 +89,11 @@ img[alt$="><"] {
 
 p {
     text-align: justify;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: "Roboto";
 }
 
 /******************************************/
