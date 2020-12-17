@@ -2,6 +2,7 @@
 title: Projetos
 layout: default
 menu: true
+menu_mobile: true
 ---
 <br>
 

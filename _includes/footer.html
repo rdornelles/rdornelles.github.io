@@ -1,0 +1,27 @@
+<footer class="page-footer" style="background-color: #0ebbcb">
+    <div class="container">
+        <div class="row">
+        <div class="col l6 s12">
+            <h4 class="white-text">{{ site.title }}</h4>
+            <p class="grey-text text-lighten-4">{{ site.description }}</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Catalago</h5>
+            <ul>
+            {% assign pages_order = site.pages | sort:"order" %}
+            {% for catalago in pages_order %} 
+            {% if catalago.filter %}
+            <li><a class="grey-text text-lighten-3" href="{{ catalago.url }}">{{ catalago.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+        © 2020 Copyright Rodrigo Barbosa Dornelles
+        <a class="grey-text text-lighten-4 right" href="/contato">Entre em contato</a>
+        </div>
+    </div>
+</footer>

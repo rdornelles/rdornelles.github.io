@@ -24,9 +24,24 @@
     <!-- PADRÃO -->
     <li><a href="/"><i class="material-icons">home</i>Pagina inicial</a></li>
     <li><a href="{{ site.instagram }}" target="_blank"><i class="material-icons">thumb_up</i>Instagram</a></li>
+    <!-- CATALAGO -->
+    {% assign pages_order = site.pages | sort:"order" %}
+    {% for catalago in pages_order %} 
+    {% if catalago.filter %}
+    <li>
+        <a href="{{ catalago.url }}"><i class="material-icons">book</i>
+        {% if catalago.title_min %}
+        {{ catalago.title_min }}
+        {% else %}
+        {{ catalago.title }}
+        {% endif %}
+        </a>
+    </li>
+    {% endif %}
+    {% endfor %}
     <!-- PAGINAS -->
     {% for page in site.pages %}
-    {% if page.menu %}
+    {% if page.menu_mobile %}
     <li><a href="{{ page.url }}"><i class="material-icons">arrow_forward</i>{{ page.title }}</a></li>
     {% endif %}
     {% endfor %}
