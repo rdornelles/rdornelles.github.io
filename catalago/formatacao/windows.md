@@ -12,6 +12,11 @@ description: >-
 <section class="row">
 <div class="col s12 m6" markdown="1">
 
+Formatação e instalação do sistema operacional para computadores, notbooks ou servidores. 
+
+Pode se adquirir uma cópia oficial do sistema atravéz de uma loja de varejo autorizada, ou será adicionado nos custos do serviço a compra de uma nova licença.
+
+Versões disponivéis: **Windows XP**, **Windows 7**, **Windows 8.1**, **Windows 10**, **Windows Server**.
 
 </div>
 
