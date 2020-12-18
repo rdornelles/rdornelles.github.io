@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
- * @description carousel mount and init
+ * @description carousel major mount and init
  */
 document.addEventListener('DOMContentLoaded', () => {
     // get elements carousel
-    var elems = document.querySelectorAll('.carousel');
+    var elems = document.querySelectorAll('.carousel-max');
     elems.forEach(function(elem) {
         var carrousel = "";
         // find for elements in tag p

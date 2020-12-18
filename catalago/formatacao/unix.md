@@ -9,7 +9,7 @@ description: >-
 
 
 <section class="row">
-<div class="carousel col s12 m6" markdown="1">
+<div class="carousel carousel-max col s12 m6" markdown="1">
 
 ![Unix FreeBSD](/images/formatacao-unix-freebsd.png)
 ![Unix FreeBSD](/images/formatacao-unix-freebsd.png)

@@ -127,6 +127,6 @@ body {
     height: 400px;
 }
 
-.carousel .carousel-item {
+.carousel-max .carousel-item {
     width:100% !important;
 }

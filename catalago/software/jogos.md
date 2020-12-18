@@ -8,7 +8,7 @@ description: >-
 ---
 
 ## Jogos Digitais ##
-<div class="carousel" markdown="1" style="height:254px">
+<div class="carousel carousel-min" markdown="1" style="height:254px">
 
 ![Tedious Simulator Game](/images/game-tedious-1.png)
 ![Tedious Simulator Game](/images/game-tedious-2.png)
