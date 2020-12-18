@@ -126,3 +126,7 @@ body {
 .parallax-container {
     height: 400px;
 }
+
+.carousel .carousel-item {
+    width:100% !important;
+}

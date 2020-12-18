@@ -1,4 +1,26 @@
 /**
+ * @description carousel minor mount and init
+ */
+document.addEventListener('DOMContentLoaded', () => {
+    // get elements carousel
+    var elems = document.querySelectorAll('.carousel-min');
+    elems.forEach(function(elem) {
+        var carrousel = "";
+        // find for elements in tag p
+        elem.childNodes[1].childNodes.forEach( (elem) => {
+            if (elem.outerHTML) {
+                carrousel += `<div class="carousel-item">${elem.outerHTML}</div>`;
+            }
+        });
+        elem.innerHTML = carrousel;
+    });
+    // init carousel
+    M.Carousel.init(elems, {
+        fullWidth: false
+    });
+});
+
+/**
  * @description carousel mount and init
  */
 document.addEventListener('DOMContentLoaded', () => {
@@ -16,7 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     // init carousel
     M.Carousel.init(elems, {
-        fullWidth: false
+        fullWidth: true,
+        indicators: true
     });
 });
 
