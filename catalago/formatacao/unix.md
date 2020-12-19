@@ -7,14 +7,12 @@ description: >-
     instalação e configuração de acordo com as preferências do cliente, e algumas opções de personalização do sistema operacional.
 ---
 
-
-
 <br class="hide-ony-small"/>
 <section class="row container-on-med-and-up">
 <div class="carousel carousel-max col s12 m6" markdown="1">
 
 ![Unix FreeBSD](/images/formatacao-unix-freebsd.png)
-![Unix FreeBSD](/images/formatacao-unix-solaris.png)
+![Unix Solaris](/images/formatacao-unix-solaris.png)
 
 </div>
 <div class="col s12 m6">
@@ -39,7 +37,7 @@ Pode se optar por configuração especial de aplicações e serviços executando
 
 A versão desejada pode não se encontrar listada mas existe a possibilidade de instalação.
 
-Versões disponivéis: NetBSD, FreeBSD, OpenBSD, Solaris...
+Versões disponivéis: **NetBSD**, **FreeBSD**, **OpenBSD**, **Solaris**...
 
 </div>
 <div class="col s12 m6" markdown="1">
