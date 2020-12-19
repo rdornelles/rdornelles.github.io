@@ -12,7 +12,7 @@ description: >-
 <div class="carousel carousel-max col s12 m6" markdown="1">
 
 ![Unix FreeBSD](/images/formatacao-unix-freebsd.png)
-![Unix FreeBSD](/images/formatacao-unix-freebsd.png)
+![Unix FreeBSD](/images/formatacao-unix-solaris.png)
 
 </div>
 
