@@ -11,6 +11,7 @@ description: >-
 <section class="row container-on-med-and-up">
 <div class="carousel carousel-max col s12 m6" markdown="1">
 
+![Windows XP](/images/formatacao-windows-xp.png)
 
 </div>
 <div class="col s12 m6">
