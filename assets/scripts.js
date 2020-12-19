@@ -74,3 +74,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     M.Parallax.init(elems);
 });
+
+/**
+ * @description fixes
+ */
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout( () => {window.dispatchEvent(new Event('resize'))}, 100);
+});

@@ -67,6 +67,16 @@ nav::after {
 
 /******************************************/
 
+hr {
+    margin: 32px auto;
+    border: 2px solid #0ebbcb;
+    border-radius: 10px;
+    width:90%
+}
+
+@media only screen and (min-width: 601px){hr{width:85%;}}
+@media only screen and (min-width: 993px){hr{width:70%}}
+
 img[alt$=">"] {
     float: right;
     margin-left: 20px;
@@ -124,9 +134,13 @@ body {
 }
 
 .parallax-container {
-    height: 400px;
+    height: 400px!important;
 }
 
 .carousel-max .carousel-item {
     width:100% !important;
 }
+
+@media only screen and (max-width: 601px){.container-only-small {margin: 0 auto;max-width: 1280px;width: 90%;}}
+@media only screen and (min-width: 601px){.container-on-med-and-up{margin: 0 auto;max-width: 1280px;width:85%}}
+@media only screen and (min-width: 993px){.container-on-med-and-up{width:70%}}
