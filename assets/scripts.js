@@ -78,6 +78,6 @@ document.addEventListener('DOMContentLoaded', function() {
 /**
  * @description fixes
  */
-document.addEventListener('DOMContentLoaded', function() {
-    setTimeout( () => {window.dispatchEvent(new Event('resize'))}, 100);
+window.addEventListener('load', function() {
+    window.dispatchEvent(new Event('resize'));
 });
