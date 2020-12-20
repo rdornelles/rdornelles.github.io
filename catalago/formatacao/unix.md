@@ -31,7 +31,7 @@ sistemas baseados em unix são multitarefa e multiutilizador, se destacam com su
 <div class="col s12 m6" markdown="1">
 
 #### Detalhes da instalação ####
-Formatação e instalação do sistema operacional para computadores, notbooks ou servidores.
+Formatação e instalação do sistema operacional para computadores, notbooks, servidores ou embarcados.
 
 Pode se optar por configuração especial de aplicações e serviços executandos, não existe custo de aquisição do sistema operacional.
 
