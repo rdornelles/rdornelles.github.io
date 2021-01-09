@@ -127,6 +127,11 @@ body {
 
 /******************************************/
 
+.inline-icon {
+    display: inline-flex;
+    vertical-align: top;
+}
+
 .waves-effect.waves-blue .waves-ripple {
     /* The alpha value allows the text and background color
     of the button to still show through. */
