@@ -1,6 +1,6 @@
 ---
 title: Programas de Computador
-layout: full
+layout: beta
 categories: catalago software
 image: /images/software-desktop.png
 description: >-

@@ -1,6 +1,6 @@
 ---
 title: Sistema de Agendamentos
-layout: full
+layout: beta
 categories: catalago sistemas
 image: /images/sistema-agendamento.jpg
 description: >-

@@ -1,6 +1,6 @@
 ---
 title: Sistemas Especializados
-layout: full
+layout: beta
 categories: catalago sistemas
 image: /images/sistema-especializado.png
 description: >-

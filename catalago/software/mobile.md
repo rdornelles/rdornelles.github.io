@@ -1,6 +1,6 @@
 ---
 title: APPs para Celular
-layout: full
+layout: beta
 categories: catalago software
 image: /images/software-mobile.png
 description: >-

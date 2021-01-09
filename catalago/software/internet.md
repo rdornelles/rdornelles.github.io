@@ -1,6 +1,6 @@
 ---
 title: Sites para Internet
-layout: full
+layout: beta
 categories: catalago software
 image: /images/software-web.png
 description: >-

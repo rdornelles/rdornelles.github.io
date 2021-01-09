@@ -1,6 +1,6 @@
 ---
 title: Alarfake
-layout: full
+layout: beta
 image: /images/produto-alarfake.png
 categories: catalago produtos
 description: >-
