@@ -36,7 +36,7 @@
     {% for catalago in pages_order %} 
     {% if catalago.filter %}
     <li>
-        <a href="{{ catalago.url }}"><i class="material-icons">book</i>
+        <a href="{{ catalago.url }}"><i class="material-icons">{{ catalago.icon }}</i>
         {% if catalago.title_min %}
         {{ catalago.title_min }}
         {% else %}
