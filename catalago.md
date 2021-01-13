@@ -4,6 +4,8 @@ layout: default
 menu: true
 ---
 ### Catalago ###
+<section class="catalago-list" markdown="1">
+
 {% assign pages_order = site.pages | sort:"order" %}
 {% for catalago in pages_order %} 
 {% if catalago.filter %}
@@ -11,3 +13,5 @@ menu: true
 {% include product_list.rb filter=catalago.filter %}
 {% endif %}
 {% endfor %}
+
+</section>

@@ -1,7 +1,7 @@
 ---
 title: Formatação de Servidores/PCs
 title_min: Formatação
-redirect_to: /catalago#formatação-de-servidorespcs
+redirect_to: /catalago#formatao-de-servidorespcs
 filter: formatacao
 icon: save
 order: 4

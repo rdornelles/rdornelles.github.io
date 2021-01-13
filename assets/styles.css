@@ -149,6 +149,12 @@ body {
 @media only screen and (min-width: 993px){.container-on-med-and-up{width:70%}}
 
 /******************************************/
+
+.catalago-list h4 {
+    margin-top: -80px;
+    padding-top: 80px;
+}
+
 .catalago-row {
     display: flex;
     flex-wrap: wrap;
