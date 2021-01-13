@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Windows Files
+Thumbs.db
+
+# Mac Files
+.DS_Store

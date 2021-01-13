@@ -76,6 +76,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 /**
+ * @description Tips init
+ */
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tooltipped');
+    M.Tooltip.init(elems);
+});
+
+/**
  * @description fixes
  */
 window.addEventListener('load', function() {
