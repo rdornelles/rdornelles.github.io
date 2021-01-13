@@ -3,11 +3,12 @@
     <head>
        {% include head.html %}
        {% seo %}
-       <link rel="stylesheet" href="/assets/homepage.css">
     </head>
     <body>
         {% include header.html %}
         <main>{{ content }}</main>
         {% include footer.html %}
+        {% include dependencies.html %}
+        <link rel="stylesheet" href="/assets/homepage.css">
     </body>
 </html>
