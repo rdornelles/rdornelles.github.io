@@ -11,7 +11,7 @@ description: >-
 <div class="col 12" markdown="1">
 
 ## 3BC Language ##
-A idéia inicial é ser uma _linguagem de máquina_ que possui apenas **3 Bits** registradores, com propóstio de ser tão simples e intuitiva que se torne fácil de  facilmente em um cartão perfurado.
+A idéia inicial é ser uma _linguagem de máquina_ que possui apenas **3 Bits** registradores com propóstio de ser tão simples e intuitiva que se torne fácil de entender em um cartão perfurado.
 
 Não é necessário ter conhecimento com programação ou expertise em computação, embora recomendável saber logica, é bem amigável a iniciantes e entusiastas em linguagens de baixo nível.
 
