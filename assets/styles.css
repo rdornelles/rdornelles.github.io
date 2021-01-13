@@ -107,11 +107,11 @@ h3 {font-size: 5.7vmin;}
 h4 {font-size: 4.4vmin;}
 h5 {font-size: 3.8vmin;}
 h6 {font-size: 3.1vmin;}
-
+*/
 p {
     text-align: justify;
-    font-size: 2.8vmin;
-}*/
+    /*font-size: 2.8vmin;*/
+}
 
 main {
     flex: 1 0 auto;
@@ -148,6 +148,8 @@ body {
 @media only screen and (min-width: 601px){.container-on-med-and-up{margin: 0 auto;max-width: 1280px;width:85%}}
 @media only screen and (min-width: 993px){.container-on-med-and-up{width:70%}}
 
+@media only screen and (max-width: 450px){.row .col.xs12 {width: 100%;}}
+
 /******************************************/
 
 .catalago-list h4 {
@@ -178,7 +180,6 @@ body {
     height: 100%;
 }
 
-.catalago-item p {text-align: justify;}
 .catalago-item a:hover h5 {color: white}
 .catalago-item:nth-child(1) h5 {color: #6c42f4;}
 .catalago-item:nth-child(2) h5 {color: #393dd2;}
