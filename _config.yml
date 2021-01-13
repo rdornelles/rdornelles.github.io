@@ -27,7 +27,7 @@ image:
 description: >-
   Tecnologia para seu negócio! 
 
-locale: pt_br
+locale: pt-BR
 
 permalink: /:categories/:title.html
 baseurl: "" 
