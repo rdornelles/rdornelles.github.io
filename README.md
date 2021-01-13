@@ -1,18 +1,29 @@
 ---
-layout: beta
+layout: home
 permalink: /
 ---
 
-{% include paralax.rb img = "https://i.pinimg.com/736x/23/04/69/230469103008f95db652606ec3759d9c.jpg" %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-[Saiba Mais](#)
+<section class="row background-light" markdown="1">
 
 ### Soluções para o seu Negócio ###
-{% include soluctions.rb %}
+<hr/>
+<div class="col s12 m10 l12 xl10 offset-m1 offset-xl1">
+    {% include soluctions.rb %}
+</div>
+</section>
+
+<section class="background-dark" markdown="1">
 
 ### Portfólio ###
+<hr/>
 {% include portfolio.rb %}
+</section>
+
+<section class="background-light" markdown="1">
 
 ### Parceiros ###
-{% include partners.rb %}
+<hr/>
+<div class="container">
+    {% include partners.rb %}
+</div>
+</section>

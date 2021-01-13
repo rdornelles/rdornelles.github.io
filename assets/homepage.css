@@ -1,0 +1,19 @@
+h3 {
+    text-align: center;
+}
+
+.background-light {
+    padding-top: 40px;
+    min-height: 50vh;
+}
+
+.background-dark {
+    padding-top: 40px;
+    min-height: 50vh;
+    background-color: #0ebbcb;
+    color: white;
+}
+
+.background-dark hr{
+    border-color: white;
+}

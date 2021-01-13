@@ -161,7 +161,7 @@ body {
 
 .catalago-item a {
     color: white;
-    padding: 32px;
+    padding: 16px;
     text-align: center;
     background-color: #333333;
     border-color: #393dd2;
@@ -172,6 +172,7 @@ body {
     height: 100%;
 }
 
+.catalago-item p {text-align: justify;}
 .catalago-item a:hover h5 {color: white}
 .catalago-item:nth-child(1) h5 {color: #6c42f4;}
 .catalago-item:nth-child(2) h5 {color: #393dd2;}
