@@ -19,7 +19,6 @@ redirect_from:
 Minha percepção para empresa é pensar na marca como se fosse minha assinatura. levo em consideração o desenvolvimento de cada produto e prestação de cada serviço, pensando como proporcionar a melhor experiencia e destacar-se com a qualidade.
 
 </div>
-
 <div class="col m6 pull-m6" markdown="1">
 
 ### Contato ###
@@ -31,6 +30,16 @@ entre em contato para solicitar seu orçamento, tirar duvidas ou _tomar um café
 
 <i class="material-icons inline-icon">email</i><strong>Email:</strong>&nbsp;
 [{{ site.email }}](mailto:site.email)<br/>
+
+
+</div>
+</section>
+<section class="row">
+<div class="col s12" markdown="1">
+
+### Deixe sua mensagem! ###
+
+{% include form.rb %}
 
 </div>
 </section>

@@ -81,13 +81,13 @@ hr {
 img[alt$=">"] {
     float: right;
     margin-left: 20px;
-    max-width: 50%;
+    max-width: 30%;
 }
 
 img[alt$="<"] {
     float: left;
     margin-right: 20px;
-    max-width: 50%;
+    max-width: 30%;
 }
 
 img[alt$="><"] {
