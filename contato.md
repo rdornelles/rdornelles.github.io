@@ -1,5 +1,6 @@
 ---
 title: Contato
+icon: contact_mail
 layout: default
 menu: true
 redirect_from:
@@ -15,7 +16,7 @@ redirect_from:
   
 ### Assinatura pessoal ###
 
-![eu rodrigo dornelles >](/images/eu-circle-crop.png)
+![eu rodrigo dornelles >](/images/rodrigo-circle-crop.png)
 Minha percepção para empresa é pensar na marca como se fosse minha assinatura. levo em consideração o desenvolvimento de cada produto e prestação de cada serviço, pensando como proporcionar a melhor experiencia e destacar-se com a qualidade.
 
 </div>

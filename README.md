@@ -3,6 +3,12 @@ layout: home
 permalink: /
 ---
 
+{%
+    include paralax.rb 
+    img = '/images/iot-background.gif'
+    img_css = 'filter: blur(1px);'
+%}
+
 <section class="row background-light" markdown="1">
 
 ### Soluções para o seu Negócio ###

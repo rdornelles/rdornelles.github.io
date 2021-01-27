@@ -1,9 +1,10 @@
 ---
-title: Sistemas
-redirect_to: /catalago#sistemas
+title: Serviços e Sistemas
+title_min: Sistemas
+redirect_to: /catalago#servios-e-sistemas
 filter: sistemas
 icon: business_center
 order: 2
 description: >-
-    Computação de baixo custo, sistemas de agendamento e personalizado.
+    Resolução, acompanhamento e prevenção relacionados com a TI.
 ---

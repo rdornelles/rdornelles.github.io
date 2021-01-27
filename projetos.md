@@ -1,6 +1,7 @@
 ---
 title: Projetos
 layout: default
+icon: build
 menu: true
 menu_mobile: true
 ---
