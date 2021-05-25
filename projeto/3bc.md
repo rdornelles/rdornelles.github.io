@@ -16,6 +16,7 @@ A idéia inicial é ser uma _linguagem de máquina_ que possui apenas **3 Bits**
 Não é necessário ter conhecimento com programação ou expertise em computação, embora recomendável saber logica, é bem amigável a iniciantes e entusiastas em linguagens de baixo nível.
 
 * **Github:** <https://github.com/rodrigodornelles/3bc-lang>
+* **Site Oficial** <https://3bc-lang.org/>
 
 </div>
 </section>
