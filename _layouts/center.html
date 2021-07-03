@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.locale }}">
     <head>
-       {% include head.html %}
+       {% include head.rhtml %}
        {% seo %}
        <style> p {text-align: inherit!important;} </style>
     </head>
     <body>
-        {% include header.html %}
+        {% include header.rhtml %}
         <main class="container" style="margin: 10px auto;max-width: 600px; text-align: center;">
             {{ content }}
         </main>
-        {% include footer.html %}
-        {% include dependencies.html %}
+        {% include footer.rhtml %}
+        {% include dependencies.rhtml %}
     </body>
 </html>

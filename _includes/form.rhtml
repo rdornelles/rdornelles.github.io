@@ -1,7 +1,4 @@
-<form action="https://formsubmit.io/send/contato@rdsolucoes.tec.br" method="POST">
-    <input name="_redirect" type="hidden" id="name" value="{{ page.url | absolute_url }}">
-    <input name="honeypot" type="text" style="display:none">
-
+<form id="send-mail" action="{{ site.api_action }}" method="POST">
     <div>
         <label for="name">Nome</label>
         <input name="name" type="text" id="name" class="validate" placeholder="Nome Completo" required="1">
@@ -19,7 +16,16 @@
         <textarea name="comment" id="comment" class="materialize-textarea validate" placeholder="escreva sua menssagem..."></textarea>
     </div>
 
-    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+    {% include recaptcha.rhtml %}
+
+    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar Mensagem!
         <i class="material-icons right">send</i>
     </button>
 </form>
+
+<div id="send-lazy" style="display:none">
+    <small>sua mensagem está sendo enviada, aguarde um momento...</small>
+    <div class="progress">
+        <div class="indeterminate"></div>
+    </div>
+</div>

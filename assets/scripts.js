@@ -89,3 +89,47 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('load', function() {
     window.dispatchEvent(new Event('resize'));
 });
+
+/**
+ * @description send contact form to @api
+ */
+document.getElementById("send-mail").addEventListener('submit', (event) => {
+    const lazyId = document.getElementById("send-lazy");
+    const formId = document.getElementById("send-mail");
+    const formData = new FormData(formId);
+    lazyId.style.display = "block";
+    formId.style.display = "none";
+    event.preventDefault();
+    grecaptcha.reset();
+    formId.reset();
+
+    fetch(formId.getAttribute("action"), {
+        headers: {
+            'Content-Type': 'application/json; charset=UTF-8',
+        },
+        method: formId.getAttribute("method"),
+        body: JSON.stringify(Object.fromEntries(formData))
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(response.statusText)
+        }
+        return response.json();   
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(response.message);
+        }
+        return response.message; 
+    })
+    .then(message => {
+        Swal.fire('Muito obrigado!', message, 'success');
+    })
+    .catch(error => {
+        Swal.fire('Ops! Ocorreu um problema.', error.message ?? error, 'error');
+    })
+    .finally(() => {
+        formId.style.display = "block";
+        lazyId.style.display = "none";
+    });
+});

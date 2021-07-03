@@ -40,7 +40,7 @@ entre em contato para solicitar seu orçamento, tirar duvidas ou _tomar um café
 
 ### Deixe sua mensagem! ###
 
-{% include form.rb %}
+{% include form.rhtml %}
 
 </div>
 </section>

@@ -10,7 +10,7 @@ menu: true
 {% for catalago in pages_order %} 
 {% if catalago.filter %}
 #### {{ catalago.title }} ####
-{% include product_list.rb filter=catalago.filter %}
+{% include product_list.rhtml filter=catalago.filter %}
 {% endif %}
 {% endfor %}
 

@@ -4,7 +4,7 @@ permalink: /
 ---
 
 {%
-    include paralax.rb 
+    include paralax.rhtml
     img = '/images/iot-background.gif'
     img_css = 'filter: blur(1px);'
 %}
@@ -14,15 +14,19 @@ permalink: /
 ### Soluções para o seu Negócio ###
 <hr/>
 <div class="col s12 m10 l12 xl10 offset-m1 offset-xl1">
-    {% include soluctions.rb %}
+    {% include soluctions.rhtml %}
 </div>
 </section>
 
-<section class="background-dark" markdown="1">
+<section class="row background-dark" markdown="1">
 
-### Portfólio ###
+### Entre em contato ###
 <hr/>
-{% include portfolio.rb %}
+
+<div class="form-container">
+    {% include form.rhtml %}
+</div>
+
 </section>
 
 <section class="background-light" markdown="1">
@@ -30,6 +34,6 @@ permalink: /
 ### Parceiros ###
 <hr/>
 <div class="container">
-    {% include partners.rb %}
+    {% include partners.rhtml %}
 </div>
 </section>
