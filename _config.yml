@@ -35,6 +35,10 @@ url: ""
 
 # Build settings
 plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
   - github-pages
 
 api_recaptcha: 6LfL0XEbAAAAAL-8NX3Xv1oxihG-bCvxikKZp7Y0
