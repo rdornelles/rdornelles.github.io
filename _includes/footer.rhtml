@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row">
         <div class="col l6 s12">
-            <h4 class="white-text">{{ site.title }}</h4>
-            <p class="grey-text text-lighten-4">{{ site.description }}</p>
+            <h2 class="white-text">{{ site.title }}</h2>
+            <p class="grey-text text-lighten-4">{{ site.description | newline_to_br  }}</p>
         </div>
         <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Catalago</h5>
+            <h2 class="white-text">Catalago</h2>
             <ul>
             {% assign pages_order = site.pages | sort:"order" %}
             {% for catalago in pages_order %} 
@@ -20,8 +20,8 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-        &copy; {{ 'now' | date: "%Y" }} Copyright Rodrigo Barbosa Dornelles
-        <a class="grey-text text-lighten-4 right" href="/contato">Entre em contato</a>
+            &copy; {{ 'now' | date: "%Y" }} layout by Rodrigo Dornelles
+            <span class="right">made with <a href="https://www.ruby-lang.org/" class="white-text">ruby</a> & <a href="https://jekyllrb.com/" class="white-text">jekyll</a></span>
         </div>
     </div>
 </footer>

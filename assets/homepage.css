@@ -1,4 +1,4 @@
-h3 {
+h2 {
     text-align: center;
 }
 
@@ -32,11 +32,6 @@ h3 {
     padding: 8px;
 }
 
-.catalago-list h4 {
-    margin-top: -80px;
-    padding-top: 80px;
-}
-
 .catalago-row {
     display: flex;
     flex-wrap: wrap;
@@ -60,11 +55,10 @@ h3 {
     height: 100%;
 }
 
-.catalago-item a:hover h5 {color: white}
-.catalago-item:nth-child(1) h5 {color: #6c42f4;}
-.catalago-item:nth-child(2) h5 {color: #393dd2;}
-.catalago-item:nth-child(3) h5 {color: #378fd3;}
-.catalago-item:nth-child(4) h5 {color: #0ebbcb;}
+.catalago-item:nth-child(1) i {text-shadow: 0 0 4px  #6c42f4;}
+.catalago-item:nth-child(2) i {text-shadow: 0 0 4px #393dd2;}
+.catalago-item:nth-child(3) i {text-shadow: 0 0 4px #378fd3;}
+.catalago-item:nth-child(4) i {text-shadow: 0 0 4px #0ebbcb;}
 .catalago-item:nth-child(1) a {border-color: #6c42f4;}
 .catalago-item:nth-child(2) a {border-color: #393dd2;}
 .catalago-item:nth-child(3) a {border-color: #378fd3;}
@@ -73,3 +67,4 @@ h3 {
 .catalago-item:nth-child(2) a:hover {background-color: #393dd2;}
 .catalago-item:nth-child(3) a:hover {background-color: #378fd3;}
 .catalago-item:nth-child(4) a:hover {background-color: #0ebbcb;}
+

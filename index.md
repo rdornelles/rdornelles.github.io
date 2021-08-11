@@ -3,15 +3,15 @@ layout: home
 permalink: /
 ---
 
-{%
-    include paralax.rhtml
-    img = '/images/iot-background.gif'
-    img_css = 'filter: blur(1px);'
-%}
+<section class="carousel carousel-max" markdown="1">
+
+![Sistemas Operacionais Defasados](/images/banner-sistemasdefasados.png)
+
+</section>
 
 <section class="row background-light" markdown="1">
 
-### Soluções para o seu Negócio ###
+## Soluções para o seu Negócio ##
 <hr/>
 <div class="col s12 m10 l12 xl10 offset-m1 offset-xl1">
     {% include soluctions.rhtml %}
@@ -20,7 +20,7 @@ permalink: /
 
 <section class="row background-dark" markdown="1">
 
-### Entre em contato ###
+## Entre em contato ##
 <hr/>
 
 <div class="form-container">
@@ -31,7 +31,7 @@ permalink: /
 
 <section class="background-light" markdown="1">
 
-### Parceiros ###
+## Parceiros ##
 <hr/>
 <div class="container">
     {% include partners.rhtml %}

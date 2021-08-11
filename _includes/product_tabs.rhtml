@@ -1,0 +1,13 @@
+<br/>
+<div class="collection">
+<a target="_self" class="collection-item {% if page.filter == nil %}active{% endif %}" href="/catalago">Todas as categorias</a>
+{% assign pages_order = site.pages | sort:"order" %}
+{% for catalago in pages_order %} 
+{% if catalago.filter %}
+<a class="collection-item {% if catalago.filter == page.filter %}active{% endif %}" target="_self" href="{{ catalago.url }}">
+    <i class="material-icons">{{ catalago.icon }}</i>
+    <span>{{ catalago.title }}</span>
+</a>
+{% endif %}
+{% endfor %}
+</div>
