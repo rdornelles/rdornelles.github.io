@@ -1,5 +1,12 @@
 <!-- IMPORT RECAPTCHA V2 -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script async>
+document.addEventListener('DOMContentLoaded', () => {
+    const scriptElement=document.createElement('script');
+    scriptElement.type = 'text/javascript';
+    scriptElement.src = 'https://www.google.com/recaptcha/api.js'
+    document.head.appendChild(scriptElement);
+});
+</script>
 <div class="center-align">
     <div 
         class="g-recaptcha"
