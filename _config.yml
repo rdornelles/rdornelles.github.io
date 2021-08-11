@@ -31,7 +31,7 @@ locale: pt-BR
 
 permalink: /:categories/:title.html
 baseurl: "" 
-url: "" 
+url: "https://rdsolucoes.tec.br" 
 
 # Build settings
 plugins:
