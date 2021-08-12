@@ -5,7 +5,7 @@ permalink: /
 
 <section class="carousel carousel-max" markdown="1">
 
-![Sistemas Operacionais Defasados](/images/banner-sistemasdefasados-min.jpeg)
+![Sistemas Operacionais Defasados](/images/banner-sistemasdefasados-min.webp)
 
 </section>
 
