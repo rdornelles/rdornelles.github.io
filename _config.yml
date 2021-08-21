@@ -45,5 +45,5 @@ plugins:
   - jekyll-feed
   - github-pages
 
-api_recaptcha: 6LfL0XEbAAAAAL-8NX3Xv1oxihG-bCvxikKZp7Y0
+api_recaptcha: 0d9d4852-77cf-4f08-9a41-dd50d27d33c2
 api_action: https://rdsolucoes-mail-send.herokuapp.com

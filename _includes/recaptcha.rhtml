@@ -1,17 +1,16 @@
-<!-- IMPORT RECAPTCHA V2 -->
+<!-- IMPORT HCAPTCHA @since 21/9/2021 -->
 <script async>
 document.addEventListener('DOMContentLoaded', () => {
     const scriptElement=document.createElement('script');
     scriptElement.type = 'text/javascript';
-    scriptElement.src = 'https://www.google.com/recaptcha/api.js'
+    scriptElement.src = 'https://js.hcaptcha.com/1/api.js'
     document.head.appendChild(scriptElement);
 });
 </script>
 <div class="center-align">
     <div 
-        class="g-recaptcha"
-        data-sitekey="{{ site.api_recaptcha }}"
-        style="transform-origin:0 0;display: inline-block;">
+        class="h-captcha"
+        data-sitekey="{{ site.api_recaptcha }}">
     </div>
 </div>
 <br/>
